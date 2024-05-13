@@ -1,11 +1,7 @@
-import MyComponent from "./MyComponent"; // 모듈 불러오기
+import Counter from "./Counter";
 
 const App = () => {
-  return (
-    <MyComponent name="React" favoriteNumber={18}>
-      리액트
-    </MyComponent>
-  );
+  return <Counter />;
 };
 
 export default App;
