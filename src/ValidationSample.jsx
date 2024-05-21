@@ -13,7 +13,7 @@ class ValidationSample extends Component {
       password: e.target.value,
     });
   };
-
+ 
   handleButtonClick = () => {
     this.setState({
       clicked: true,
