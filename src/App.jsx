@@ -1,7 +1,14 @@
-import Info from "./hooks-tutorial/Info";
+import { Component } from "react";
+import SassComponent from "./component-styling/SassComponent";
 
-const App = () => {
-  return <Info />;
-};
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
+    );
+  }
+}
 
 export default App;
