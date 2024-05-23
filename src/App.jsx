@@ -1,7 +1,7 @@
-import Average from "./hooks-tutorial/Average";
+import Info from "./hooks-tutorial/Info";
 
 const App = () => {
-  return <Average />;
+  return <Info />;
 };
 
 export default App;
